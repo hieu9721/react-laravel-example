@@ -1,6 +1,6 @@
 # Laravel + React + Vite + Docker (local.example.com)
 
-Dự án tích hợp Laravel 10 + React sử dụng Vite để build frontend. Hệ thống chạy hoàn toàn trong Docker với các container: PHP (FPM), MySQL, Node (Vite), và Nginx.
+Dự án tích hợp Laravel 12 + React sử dụng Vite để build frontend. Hệ thống chạy hoàn toàn trong Docker với các container: PHP (FPM), MySQL, Node (Vite), và Nginx.
 
 ---
 
