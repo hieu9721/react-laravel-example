@@ -14,6 +14,7 @@ Dự án tích hợp Laravel 10 + React sử dụng Vite để build frontend. H
 
 ## 📂 Cấu trúc chính
 
+```bash
 ├── docker/
 │ ├── php/ # Dockerfile PHP
 │ └── nginx/ # Config nginx trỏ Laravel
@@ -21,6 +22,7 @@ Dự án tích hợp Laravel 10 + React sử dụng Vite để build frontend. H
 ├── .env # Laravel config
 ├── README.md
 └── (Laravel + React source)
+```
 
 ---
 
@@ -65,19 +67,23 @@ php artisan key:generate
 php artisan db:seed
 ```
 
-# Cài node_modules
+---
+
+## Cài node_modules
 
 ```bash
 npm install
 ```
 
-# Chạy Vite
+## Chạy Vite
 
 ```bash
 npm run dev
 ```
 
-### Thêm vào file hosts của hệ điều hành
+---
+
+## Thêm vào file hosts của hệ điều hành
 
 | Hệ điều hành | File đường dẫn                          |
 | ------------ | --------------------------------------- |
